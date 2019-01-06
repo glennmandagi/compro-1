@@ -95,12 +95,70 @@ int main() {
       printf("%d\n\n",value );
       sum += value;
 
-      // //Question four
-      // printf("Question 3.\n\n");
+      //Question four
+      printf("Question 4.\n\n");
+      printf("What's your truly desire?\n");
+      printf("1.Money\n");
+      printf("2.Love\n");
+      printf("3.Happiness\n");
+      printf("4.Power\n");
+      printf("Choose Your Answer : ");
+      scanf("%d",&answer);
+      if (answer == 1) {
+        value = 15;
+      }
+      else if (answer == 2) {
+        value = 20;
+      }
+      else if (answer == 3) {
+        value = 40;
+      }
+      else if (answer == 4) {
+        value = 25;
+      }
+      printf("%d\n\n",value );
+      sum += value;
 
+      //Question five
+      printf("Question 5.\n\n");
+      printf("Choose the quality you like in people\n");
+      printf("1.Focused\n");
+      printf("2.Excellence\n");
+      printf("3.Flexible\n");
+      printf("4.Brave\n");
+      printf("Choose Your Answer : ");
+      scanf("%d",&answer);
+      if (answer == 1) {
+        value = 10;
+      }
+      else if (answer == 2) {
+        value = 25;
+      }
+      else if (answer == 3) {
+        value = 20;
+      }
+      else if (answer == 4) {
+        value = 45;
+      }
+      printf("%d\n\n",value );
+      sum += value;
+
+      //Question six
+      printf("Question 6.\n\n");
 
 
       val += sum;
+
+      if (val >= 120 && val <= 390) {
+        printf("Your Hidden power is your speed\n");
+      }
+      else if (val >= 391 && val <= 499) {
+        printf("You've a hidden psyshic power\n");
+      }
+      else if (val >= 500 && val <= 650 || val > 650) {
+        printf("Your power is your ability to read people like a book\n");
+      }
+
     }
   } while(choose != 2);
   printf("%d\n",val );
