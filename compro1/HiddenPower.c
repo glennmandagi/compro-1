@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 int main() {
-  int exit,value=0,sum=0,answer,choose,qn;
+  int exit,value=0,sum=0,answer,choose,val=0;
 
   printf("What's Your Hidden Power\n\n");
   do {
@@ -39,6 +39,7 @@ int main() {
         value = 50;
       }
       printf("%d\n\n\n",value );
+      sum += value;
 
       //Question two
       printf("Question 2.\n\n");
@@ -63,6 +64,7 @@ int main() {
         value = 25;
       }
       printf("%d\n\n",value );
+      sum += value;
 
 
       //Question three
@@ -91,9 +93,17 @@ int main() {
         value = 25;
       }
       printf("%d\n\n",value );
+      sum += value;
 
+      // //Question four
+      // printf("Question 3.\n\n");
+
+
+
+      val += sum;
     }
   } while(choose != 2);
+  printf("%d\n",val );
   printf("Thank You\n\n" );
   return 0;
 }
