@@ -145,7 +145,53 @@ int main() {
 
       //Question six
       printf("Question 6.\n\n");
+      printf("What's your favorite weather?\n");
+      printf("1.Winter\n");
+      printf("2.Fall\n");
+      printf("3.Summer\n");
+      printf("4.Rainy\n");
+      printf("Choose Your Answer : ");
+      scanf("%d",&answer);
+      if (answer == 1) {
+        value = 20;
+      }
+      else if (answer == 2) {
+        value = 10;
+      }
+      else if (answer == 3) {
+        value = 45;
+      }
+      else if (answer == 4) {
+        value == 25;
+      }
+      printf("%d\n\n",value );
+      sum += value;
 
+      //Question seven
+      printf("Question 7.\n\n");
+      printf("What does a perfect day look like to you?\n");
+      printf("1.Spend time together with family\n");
+      printf("2.Go out with Girl/Boyfriend\n");
+      printf("3.Take a rest after a hard day\n");
+      printf("4.Holiday\n");
+      printf("Choose Your Answer : ");
+      scanf("%d",&answer);
+      if (answer == 1) {
+        value = 25;
+      }
+      else if (answer == 2) {
+        value = 10;
+      }
+      else if (answer == 3) {
+        value = 45;
+      }
+      else if (answer == 4) {
+        value == 20;
+      }
+      printf("%d\n\n",value );
+      sum += value;
+
+      //Question eight
 
       val += sum;
 
