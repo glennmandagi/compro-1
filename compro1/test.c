@@ -1,16 +1,20 @@
 #include <stdio.h>
-void setup();
-void draw();
-float circleX;
+int main(){
+int M[7];
+int j,val;
 
-void setup() {
-  size(640,360);
-  circleX = 50;
-}
+printf("Print all the Numbers : \n");
+  printf("Input value : ");
+  scanf("%d",&val );
+  for (j = 0; j < 7; j++){
+    val += 2;
+    
+    printf("M[%d] = %d\n",j,M[val]);
+  }
 
-void draw(){
-  background(50);
-  fill(255);
-  ellipse(cicrcleX,180,24,24);
-  circleX= circleX + 1;
+    printf("\nFrom End to Beginning : \n");
+    for (j = 6; j >= 0; j--){
+    printf("M[%d] = %d\n",j,M[val]);
+    }
+
 }

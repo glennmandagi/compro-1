@@ -98,10 +98,10 @@ int main() {
       //Question four
       printf("Question 4.\n\n");
       printf("What's your truly desire?\n");
-      printf("1.Money\n");
-      printf("2.Love\n");
-      printf("3.Happiness\n");
-      printf("4.Power\n");
+      printf("1.Money \t");
+      printf("2.Love \t ");
+      printf("3.Happiness \t ");
+      printf("4.Power \n\n");
       printf("Choose Your Answer : ");
       scanf("%d",&answer);
       if (answer == 1) {
@@ -122,10 +122,10 @@ int main() {
       //Question five
       printf("Question 5.\n\n");
       printf("Choose the quality you like in people\n");
-      printf("1.Focused\n");
-      printf("2.Excellence\n");
-      printf("3.Flexible\n");
-      printf("4.Brave\n");
+      printf("1.Focused \t");
+      printf("2.Excellence \t");
+      printf("3.Flexible \t");
+      printf("4.Brave \n\n");
       printf("Choose Your Answer : ");
       scanf("%d",&answer);
       if (answer == 1) {
@@ -146,10 +146,10 @@ int main() {
       //Question six
       printf("Question 6.\n\n");
       printf("What's your favorite weather?\n");
-      printf("1.Winter\n");
-      printf("2.Fall\n");
-      printf("3.Summer\n");
-      printf("4.Rainy\n");
+      printf("1.Winter \t");
+      printf("2.Fall \t");
+      printf("3.Summer \t");
+      printf("4.Rainy \n\n");
       printf("Choose Your Answer : ");
       scanf("%d",&answer);
       if (answer == 1) {
@@ -162,7 +162,7 @@ int main() {
         value = 45;
       }
       else if (answer == 4) {
-        value == 25;
+        value = 25;
       }
       printf("%d\n\n",value );
       sum += value;
@@ -173,7 +173,7 @@ int main() {
       printf("1.Spend time together with family\n");
       printf("2.Go out with Girl/Boyfriend\n");
       printf("3.Take a rest after a hard day\n");
-      printf("4.Holiday\n");
+      printf("4.Holiday\n\n");
       printf("Choose Your Answer : ");
       scanf("%d",&answer);
       if (answer == 1) {
@@ -186,25 +186,45 @@ int main() {
         value = 45;
       }
       else if (answer == 4) {
-        value == 20;
+        value = 20;
       }
       printf("%d\n\n",value );
       sum += value;
 
       //Question eight
-
-      val += sum;
-
-      if (val >= 120 && val <= 390) {
-        printf("Your Hidden power is your speed\n");
+      printf("Question 8.\n");
+      printf("What's makes you feel happy?\n");
+      printf("1.Play a game\n" );
+      printf("2.Listen to music\n");
+      printf("3.Go out for holiday\n");
+      printf("4.Hang out to the party\n");
+      printf("Choose Your Answer\n");
+      scanf("%d",&answer);
+      if(answer == 1) {
+        value = 15;
       }
-      else if (val >= 391 && val <= 499) {
-        printf("You've a hidden psyshic power\n");
+      else if (answer == 2) {
+        value = 40;
       }
-      else if (val >= 500 && val <= 650 || val > 650) {
-        printf("Your power is your ability to read people like a book\n");
+      else if (answer == 3) {
+        value =  20;
       }
+      else if (answer == 4) {
+        value = 25;
+      }
+      printf("%d\n\n",value );
+      sum += value;
 
+      val += sum;//count every sum
+      if (val >= 120 && val <= 205) {
+        printf("Your Hidden power is your speed\n\n");
+      }
+      else if (val >= 260 && val <= 399) {
+        printf("You've a hidden psyshic power\n\n");
+      }
+      else if (val >= 400 && val <= 450) {
+        printf("Your power is your ability to read people like a book\n\n");
+      }
     }
   } while(choose != 2);
   printf("%d\n",val );
