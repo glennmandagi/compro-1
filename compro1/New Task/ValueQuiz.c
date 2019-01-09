@@ -14,7 +14,6 @@ int main(int argc, char const *argv[]) {
     sum = 0.10 * avr;
 
   }
-
   printf("Quiz Value is %.2f\n",sum );
   return 0;
 }
