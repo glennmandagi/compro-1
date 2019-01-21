@@ -198,7 +198,7 @@ int main() {
       printf("2.Listen to music\n");
       printf("3.Go out for holiday\n");
       printf("4.Hang out to the party\n");
-      printf("Choose Your Answer\n");
+      printf("Choose Your Answer : ");
       scanf("%d",&answer);
       if(answer == 1) {
         value = 15;
@@ -215,7 +215,7 @@ int main() {
       printf("%d\n\n",value );
       sum += value;
 
-      val += sum;//count every sum
+      val += sum; //count every sum
       if (val >= 120 && val <= 205) {
         printf("Your Hidden power is your speed\n\n");
       }

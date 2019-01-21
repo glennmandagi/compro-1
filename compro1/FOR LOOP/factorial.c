@@ -17,6 +17,6 @@ int main(int argc, char const *argv[]) {
     }
     output = i * output;
   }
-  printf("= %d",output );
+  printf("= %d\n",output );
   return 0;
 }

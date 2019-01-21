@@ -1,20 +1,14 @@
 #include <stdio.h>
-int main(){
-int M[7];
-int j,val;
 
-printf("Print all the Numbers : \n");
-  printf("Input value : ");
-  scanf("%d",&val );
-  for (j = 0; j < 7; j++){
-    val += 2;
-    
-    printf("M[%d] = %d\n",j,M[val]);
-  }
-
-    printf("\nFrom End to Beginning : \n");
-    for (j = 6; j >= 0; j--){
-    printf("M[%d] = %d\n",j,M[val]);
+int main(int argc, char const *argv[]) {
+  int n;
+  printf("Input number of rows for the table : ");
+  scanf("%d",&n );
+  for (int x = 1; x <= n; x++) {
+    for (int y = 1; y <= n; y++) {
+      printf("%d\t",y);
     }
-
+    printf("\n");
+  }
+  return 0;
 }
