@@ -8,6 +8,6 @@ int main(int argc, char const *argv[]) {
 
   }
   printf("\n\n");
-  printf("Sum of 10 natural numbers is %d\n",sum );
+  printf("Sum of 10 natural numbers is %d\n\n",sum );
   return 0;
 }
