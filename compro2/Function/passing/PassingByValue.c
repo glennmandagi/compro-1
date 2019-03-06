@@ -11,14 +11,9 @@ int large(int a1, int a2, int a3);
 int main() {
   int l,w,h,sum;
 
-  printf("Input Length : ");
-  scanf("%d",&l );
+  printf("Input Length - Width - Height : ");
+  scanf("%d %d %d",&l,&w,&h );
 
-  printf("Input Width : ");
-  scanf("%d",&w );
-
-  printf("Input Height : ");
-  scanf("%d",&h );
   printf("\n\n");
 
   sum = around(l,w,h);

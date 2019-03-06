@@ -7,5 +7,7 @@ int main(int argc, char const *argv[]) {
 
   printf("Input : ");
   scanf("%d %f %s",&x,&num,r);
+
+  printf("%d %.2f %s\n",x,num,r );
   return 0;
 }

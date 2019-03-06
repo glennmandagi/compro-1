@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main(int argc, char const *argv[]) {
-  int max,min,appears,num;
+  int max,min,appears=0,num;
 
   printf("Input Numbers : \n");
-  for (int i = 1; i <= 8; i++) {
+  for (int i = 1; i < 8; i++) {
     scanf("%d",&num );
 
     if (i == 1) {
@@ -18,12 +18,12 @@ int main(int argc, char const *argv[]) {
     else if (min > num) {
       min = num;
     }
-    else {
+    else if (max == num){
       appears++;
     }
   }
   printf("Highest Number %d\n",max );
   printf("Lowest Number %d\n",min );
-  printf("Same Number Appears %d\n",appears );
+  printf("Same Number Appears %d\n",appears);
   return 0;
 }

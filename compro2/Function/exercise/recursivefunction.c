@@ -5,7 +5,8 @@ int fac(int n);
 int main() {
   int val,num;
   printf("Input Num : " );
-  scanf("%d",&num );
+  scanf("%d",&num);
+
   val = fac(num);
   printf("%d\n",val);
   return 0;

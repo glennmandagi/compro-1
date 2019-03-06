@@ -1,22 +1,26 @@
 #include <stdio.h>
-// #define Mx 5
 
-int main() {
-  int Mx = 5;
-  int arr[Mx],avr,num=0;
+int main(int argc, char const *argv[]) {
+  int Mx;
 
+  printf("Input Array : ");
+  scanf("%d",&Mx );
 
-  for (int i = 0; i < 5; i++) {
+  float arr[Mx],avr,num;
+
+  for (int i = 0; i < Mx; i++) {
     printf("Input Value %d : ",i);
-    scanf("%d",&arr[Mx] );
-    num += arr[Mx];
+    scanf("%f",&arr[i] );
+    num += arr[i];
   }
+  
+  printf("\nDisplay\n\n");
 
-  for (int j = 0; j < 5; j++) {
-    printf("%d ",arr[Mx] );
+  for (int j = 0; j < Mx; j++) {
+    printf("%.0f ",arr[j] );
   }
-  printf("\n");
-  avr = num / 5;
-  printf("Average = %d\n",avr );
+  printf("\n\n");
+  avr = num / (float)Mx;
+  printf("Average = %.2f\n",avr );
   return 0;
 }
