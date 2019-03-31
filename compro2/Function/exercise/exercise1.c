@@ -1,29 +1,30 @@
 #include <stdio.h>
 #include <stdlib.h>
-void sl();
-void hdr();
+int line();
+int info();
 
 int main() {
-  hdr();
-  printf("Nama : Amir Khan\n");
-  sl();
-
-  printf("Department : Information Technology\n");
-  sl();
-
-  printf("Hobby : Hang out\n");
-  sl();
-
+  info();
   return 0;
 }
 
-void hdr(){
-  printf("Klabat University\n");
-  printf("Faculty of Information of Technology\n");
-  printf("******************************\n\n");
+int info(){
+  int a,b,c;
+  printf("Input Name : ");
+  scanf("%d",&a);
+  line();
 
+  printf("Input Faculty : ");
+  scanf("%d",&b);
+  printf("\n");
+  line();
+
+  printf("Input Hobby : ");
+  scanf("%d",&c);
+  printf("\n");
+  line();
 }
 
-void sl() {
-  printf("------------------------------\n");
+int line(){
+  printf("-------------------\n");
 }
