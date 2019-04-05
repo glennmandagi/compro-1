@@ -1,20 +1,25 @@
 #include <stdio.h>
 
 int main(int argc, char const *argv[]) {
-  int arr1[10] = {1,3,2,4,5,7,6,8,9,10};
-  int max,min;
+  int arr1[10];
+  int max,min,i,j;
 
-  for (int i = 0; i < 10; i++) {
+  for ( i = 0; i < 10; i++) {
+    printf("Input Value : ");
+    scanf("%d",&arr1[i] );
+  }
 
-    if (arr1[i] == 1) {
-      max = arr1[i];
-      min = arr1[i];
+  for ( j = 0; j < 10; j++) {
+
+    if (j == arr1[j]) {
+      max = arr1[j];
+      min = arr1[j];
     }
-    else if (max < arr1[i]) {
-      max = arr1[i];
+    else if (arr1[j]>max) {
+      max = arr1[j];
     }
-    else if (min > arr1[i]) {
-      min = arr1[i];
+    else if (arr1[j]<min) {
+      min = arr1[j];
     }
   }
   printf("Max Number : %d\n",max );

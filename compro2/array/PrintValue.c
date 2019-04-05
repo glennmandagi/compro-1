@@ -11,7 +11,7 @@ int main() {
     array[i] = num;
   }
   for ( i = 0; i < 5; i++) {
-    if (array[i]>=75) {
+    if (array[i]<=75) {
       printf("%d\n",array[i]);
     }
   }

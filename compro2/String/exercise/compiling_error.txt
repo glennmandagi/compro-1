@@ -1,0 +1,15 @@
+/Users/javascript/Documents/GitHub/compro-1/compro2/String/exercise/No1.cpp:9:3: error: use of undeclared identifier 'strupr'; did you mean 'strdup'?
+  strupr(name);
+  ^~~~~~
+  strdup
+/usr/include/string.h:117:7: note: 'strdup' declared here
+char    *strdup(const char *__s1);
+         ^
+/Users/javascript/Documents/GitHub/compro-1/compro2/String/exercise/No1.cpp:10:3: error: use of undeclared identifier 'strrev'; did you mean 'strlen'?
+  strrev(name);
+  ^~~~~~
+  strlen
+/usr/include/string.h:82:9: note: 'strlen' declared here
+size_t   strlen(const char *__s);
+         ^
+2 errors generated.

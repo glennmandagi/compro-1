@@ -7,6 +7,28 @@ int main(int argc, char const *argv[]) {
   int arr2[3][6] = {6,6,6,5,5,5,4,4,4,3,3,3,2,2,2,1,1,1,};
   int sum[3][6];
   int i,j,a,b;
+  //print value
+     printf("\n");
+     for ( i = 0; i < 3; i++) {
+       for ( j = 0; j < 6; j++) {
+         printf("%d ",arr1[i][j]);
+         if (j==5) {
+            printf("\n");
+         }
+       }
+     }
+     printf("\n");
+     for ( a = 0; a < 3; a++) {
+       for ( b = 0; b < 6; b++) {
+         printf("%d ",arr2[a][b]);
+         if (b==5) {
+            printf("\n");
+         }
+       }
+     }
+     printf("\n");
+
+     
   printf("1. + \n");
   printf("2. - \n");
   printf("Choose : ");
@@ -31,25 +53,7 @@ int main(int argc, char const *argv[]) {
     //     }
     //   }
 
-    //print value
-       printf("\n");
-       for ( i = 0; i < 3; i++) {
-         for ( j = 0; j < 6; j++) {
-           printf("%d ",arr1[i][j]);
-           if (j==5) {
-              printf("\n");
-           }
-         }
-       }
-       printf("\n");
-       for ( a = 0; a < 3; a++) {
-         for ( b = 0; b < 6; b++) {
-           printf("%d ",arr2[a][b]);
-           if (b==5) {
-              printf("\n");
-           }
-         }
-       }
+
        printf("\n");
 
     //count the Value
@@ -83,25 +87,25 @@ int main(int argc, char const *argv[]) {
     //     }
     //   }
 
-    //print value
-       printf("\n");
-       for ( i = 0; i < 3; i++) {
-         for ( j = 0; j < 6; j++) {
-           printf("%d ",arr1[i][j]);
-           if (j==5) {
-              printf("\n");
-           }
-         }
-       }
-       printf("\n");
-       for ( a = 0; a < 3; a++) {
-         for ( b = 0; b < 6; b++) {
-           printf("%d ",arr2[a][b]);
-           if (b==5) {
-              printf("\n");
-           }
-         }
-       }
+    // //print value
+    //    printf("\n");
+    //    for ( i = 0; i < 3; i++) {
+    //      for ( j = 0; j < 6; j++) {
+    //        printf("%d ",arr1[i][j]);
+    //        if (j==5) {
+    //           printf("\n");
+    //        }
+    //      }
+    //    }
+    //    printf("\n");
+    //    for ( a = 0; a < 3; a++) {
+    //      for ( b = 0; b < 6; b++) {
+    //        printf("%d ",arr2[a][b]);
+    //        if (b==5) {
+    //           printf("\n");
+    //        }
+    //      }
+    //    }
        printf("\n");
 
     //count the Value
