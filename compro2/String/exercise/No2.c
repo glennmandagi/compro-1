@@ -3,11 +3,13 @@
 
 int main(int argc, char const *argv[]) {
   char s[25],length;
+  int count;
   printf("Input Something : ");
-  scanf("%s ",s);
+  scanf("%s",s);
   length = strlen(s);
   if (length > 1) {
-    printf("%s\n",length );
+    count++;
+    printf("%d\n",count );
   }
   return 0;
 }
