@@ -2,14 +2,11 @@
 #include<string.h>
 
 int main(int argc, char const *argv[]) {
-  char s[25],length;
-  int count;
-  printf("Input Something : ");
-  scanf("%s",s);
+  char s[20];
+  int length;
+  strcpy(s,"Laura Novalia Kainde");
   length = strlen(s);
-  if (length > 1) {
-    count++;
-    printf("%d\n",count );
-  }
+
+  printf("%d\n",length );
   return 0;
 }
