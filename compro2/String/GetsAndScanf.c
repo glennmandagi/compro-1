@@ -1,18 +1,20 @@
+// C gets function example
 #include <stdio.h>
-#include <string.h>
 
-int main(int argc, char const *argv[]) {
-  char name[10],input;
+int main()
+{
+	char name[50];
+  int choose;
   printf("Choose : ");
-  scanf("%d",&input);
+  scanf("%d",&input );
   if (input == 1) {
-    printf("Input Name : ");
-    scanf("%s",name );
-    printf("%s\n",name );
-  } else if (input == 2) {
-    gets(name);
-  }
-  printf("\n");
+    printf("\n Please Enter your Full Name: \n");
+  	gets(name);
 
-  return 0;
+  	printf("=============\n");
+  }
+
+  printf("%s", name);
+
+	return 0;
 }

@@ -1,11 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 
-char player[] = "string length";
-char name[20] = "C language";
-
 int a;
-a = strlen(player);
+char name[20];
+strcpy(name,"Laura");
+a = strlen(name);
 
-printf("Length player : %d\n",a );
-printf("Length name : %d\n",strlen(player) );
+printf("Length name : %d\n",strlen(name));

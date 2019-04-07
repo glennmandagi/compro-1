@@ -2,8 +2,12 @@
 #include<string.h>
 
 int main(int argc, char const *argv[]) {
-  char s[20] = "Prince Siachin Pasombaran";
-  strlen(s);
-  printf("%s\n",s );
+  char s[25],length;
+  printf("Input Something : ");
+  scanf("%s ",s);
+  length = strlen(s);
+  if (length > 1) {
+    printf("%s\n",length );
+  }
   return 0;
 }
