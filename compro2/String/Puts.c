@@ -1,8 +1,11 @@
 #include<stdio.h>
-#include<string.h>
 
-int main(int argc, char const *argv[]) {
-  char name[10];
-  char NAME[15];
-  return 0;
+int main()
+{
+    char name[30];
+    printf("Enter name: ");
+    gets(name);     //Function to read string from user.
+    printf("Name: ");
+    puts(name);    //Function to display string.
+    return 0;
 }
