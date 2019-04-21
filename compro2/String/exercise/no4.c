@@ -2,7 +2,7 @@
 #include <string.h>
 
 //palindrome words
-int main(int argc, char const *argv[]) {
+int main() {
   char a[30],b[30];
   int c;
 
@@ -17,7 +17,6 @@ int main(int argc, char const *argv[]) {
   }
   else {
     printf("Not Palindrome\n");
-
   }
   return 0;
 }
