@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(int argc, char const *argv[]) {
-  int n,i,num,avr,ctr=0;
+  int n,i,num,avr,ctr=0,percentage=0;
 
   printf("Input N : ");
   scanf("%d",&n );
@@ -10,7 +10,9 @@ int main(int argc, char const *argv[]) {
     scanf("%d",&num );
     ctr = ctr + num;
     avr = ctr / n;
+    percentage = avr * 0.15;
   }
   printf("The Average Of N Is %d\n\n",avr );
+  printf("Percentage is %d\n",percentage );
   return 0;
 }

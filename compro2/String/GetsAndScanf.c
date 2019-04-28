@@ -14,7 +14,7 @@ int main()
   	printf("=============\n");
   }else if (input == 2) {
 		printf("\n Please Enter your Full Name: \n");
-		scanf("%d",&name );
+		scanf("%s",&name );
   }
 
   printf("%s\n", name);
