@@ -27,7 +27,7 @@ int main(int argc, char const *argv[]) {
     printf("%d ",arr[a] );
   }
 
-  
+
   printf("\n");
   return 0;
 }
