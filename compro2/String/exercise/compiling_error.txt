@@ -1,0 +1,10 @@
+/Users/javascript/Documents/GitHub/compro-1/compro2/String/exercise/no5.c:6:14: error: use of undeclared identifier 'count'
+  int no[30]=count,i,appears;
+             ^
+/Users/javascript/Documents/GitHub/compro-1/compro2/String/exercise/no5.c:13:3: error: use of undeclared identifier 'count'
+  count = strlen(output);
+  ^
+/Users/javascript/Documents/GitHub/compro-1/compro2/String/exercise/no5.c:15:20: error: use of undeclared identifier 'count'
+  for ( i = 0; i < count; i++) {
+                   ^
+3 errors generated.

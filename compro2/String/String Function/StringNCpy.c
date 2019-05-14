@@ -9,7 +9,7 @@ int main ()
 
   strncpy ( str2, str1, sizeof(str2) );
 
-  strncpy ( str3, str2, 5 );
+  strncpy ( str3, str2, 22 );
 
   puts (str1);
   puts (str3);

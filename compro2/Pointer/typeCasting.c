@@ -1,11 +1,12 @@
 #include<stdio.h>
+#include<stdlib.h>
 
 int main(int argc, char const *argv[]) {
+  //int a =10;
+  FILE *document;
+  document = fopen("/Users/javascript/student.txt","r+");
 
-  int *b = 5;
-  int a = *b;
-
-  printf("a = %d\n", a );
-
+  fprintf(document,"Hallo\nSaya file");
+  fclose(document);
   return 0;
 }
