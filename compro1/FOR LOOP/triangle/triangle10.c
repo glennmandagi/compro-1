@@ -7,7 +7,7 @@ int main(int argc, char const *argv[]) {
     }
     for (int h = 5; h >= i; h--) {
       printf("%d",h );
-      
+
     }
     printf("\n");
   }
