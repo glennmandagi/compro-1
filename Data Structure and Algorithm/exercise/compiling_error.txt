@@ -1,11 +1,4 @@
-/Users/javascript/Documents/GitHub/compro-1/Data Structure and Algorithm/exercise/ex1.c:19:5: error: must use 'struct' tag to refer to type 'New_Node'
-    New_Node = (struct New_Node*)malloc(sizeof(New_Node));
-    ^
-    struct 
-/Users/javascript/Documents/GitHub/compro-1/Data Structure and Algorithm/exercise/ex1.c:19:14: error: expected identifier or '('
-    New_Node = (struct New_Node*)malloc(sizeof(New_Node));
-             ^
-/Users/javascript/Documents/GitHub/compro-1/Data Structure and Algorithm/exercise/ex1.c:29:18: warning: incompatible pointer types assigning to 'struct Node *' from 'struct New_Node *' [-Wincompatible-pointer-types]
-      node->link = head;
-                 ^ ~~~~
-1 warning and 2 errors generated.
+/Users/javascript/Documents/GitHub/compro-1/Data Structure and Algorithm/exercise/ex3.c:40:16: error: array initializer must be an initializer list
+  struct Node* temp[5] = head;
+               ^
+1 error generated.
